@@ -5,7 +5,7 @@
   
 2. Podbicie JBossa
   Problem logera WARN vs WARNING oraz brak 2 wersji 7.1 
-  ```
+  ```xml
   <exclude-subsystems>
       <subsystem name="jaxrs" />
       <subsystem name="webservices" />
