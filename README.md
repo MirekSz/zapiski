@@ -15,3 +15,4 @@
 4. NVision agent usuwający nagłówki GZIP
 5. Pola nullable z JSON i reakcja na zmiane wartości pól w dataset
 6. Visibility calendar i animacje CSS
+7. Blokowanie INSERT INTO w PostgreSQL dla locków oraz indexów unikalnych
