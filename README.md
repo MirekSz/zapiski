@@ -16,4 +16,4 @@
 5. Pola nullable z JSON i reakcja na zmiane wartości pól w dataset
 6. Visibility calendar i animacje CSS
 7. Blokowanie INSERT INTO w PostgreSQL dla locków oraz indexów unikalnych
-8. Hibernate cache cluster do deserailizacji wymagał <session-factory name="java:app/hibernate/SessionFactory">
+8. Hibernate cache cluster do deserailizacji wymagał  ```xml<session-factory name="java:app/hibernate/SessionFactory">    ```
