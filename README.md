@@ -20,3 +20,4 @@
 ```xml
 <session-factory name="java:app/hibernate/SessionFactory"> 
 ```
+9. Hawtio i wyciek pamięci na zapamiętaniu ostatnich 2000 logów
