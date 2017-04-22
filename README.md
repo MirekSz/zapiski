@@ -6,10 +6,12 @@
 2. Podbicie JBossa
   Problem logera WARN vs WARNING oraz brak 2 wersji 7.1 
   ```xml
+  
   <exclude-subsystems>
       <subsystem name="jaxrs" />
       <subsystem name="webservices" />
     </exclude-subsystems>
+    
     ```
 3. Dialog brak wpisów w DNS
 4. NVision agent usuwający nagłówki GZIP
@@ -19,7 +21,9 @@
 8. Hibernate cache cluster do deserailizacji wymagał  
 
 ```xml
+
 <session-factory name="java:app/hibernate/SessionFactory"> 
+
 ```
 9. Hawtio i wyciek pamięci na zapamiętaniu ostatnich 2000 logów
 10. Znikanjace pliki finalize DiskFileItem
