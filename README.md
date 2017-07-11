@@ -23,3 +23,4 @@
 ```
 9. Hawtio i wyciek pamięci na zapamiętaniu ostatnich 2000 logów
 10. Znikanjace pliki finalize DiskFileItem
+11. CPU i Network blokady logiczne , cache copy-on-read i cluster multicast
