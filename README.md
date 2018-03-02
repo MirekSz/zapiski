@@ -23,4 +23,5 @@
 ```
 9. Hawtio i wyciek pamięci na zapamiętaniu ostatnich 2000 logów
 10. Znikanjace pliki finalize DiskFileItem
-11. CPU i Network blokady logiczne , cache copy-on-read i cluster multicast
+11. CPU i Network blokady logiczne duzy modyfikowalny obiekt , cache copy-on-read i cluster multicast
+12. IE 11 startsWith('s') raz działa raz nie ramka i babel w parencie
