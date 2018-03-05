@@ -30,7 +30,7 @@
  WARN [net.sf.ehcache.distribution.RMIAsynchronousCacheReplicator] (Replication Thread) Unable to send message to remote peer due to socket read timeout. Consider increasing the socketTimeoutMillis setting in the cacheManagerPeerListenerFactory. Message was: Error unmarshaling return header; nested exception is:
 java.net.SocketTimeoutException: Read timed out
 
-WARN [net.sf.ehcache.distribution.RMIAsynchronousCacheReplicator] (Replication Thread) 204678 messages were discarded on replicate due to reclamation of SoftReferences by the VM. Consider increasing the maximum heap size and/or setting the starting heap size to a higher value.
+WARN [net.sf.ehcache.distribution.RMIAsynchronousCacheReplicator] (Replication Thread) 2204678 messages were discarded on replicate due to reclamation of SoftReferences by the VM. Consider increasing the maximum heap size and/or setting the starting heap size to a higher value.
 
 ```
 
