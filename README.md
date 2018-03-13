@@ -23,7 +23,7 @@
 ```
 9. Hawtio i wyciek pamięci na zapamiętaniu ostatnich 2000 logów
 10. Znikanjace pliki finalize DiskFileItem
-11. CPU i Network blokady logiczne duzy modyfikowalny obiekt , cache copy-on-read i cluster multicast
+11. CPU i Network blokady logiczne duzy modyfikowalny obiekt , cache copy-on-read i cluster multicast dużo modyfikacji invalidacji async
 12. IE 11 startsWith('s') raz działa raz nie ramka i babel w parencie
 13. EHcache
 ```
@@ -33,4 +33,6 @@ java.net.SocketTimeoutException: Read timed out
 WARN [net.sf.ehcache.distribution.RMIAsynchronousCacheReplicator] (Replication Thread) 2204678 messages were discarded on replicate due to reclamation of SoftReferences by the VM. Consider increasing the maximum heap size and/or setting the starting heap size to a higher value.
 
 ```
+
+
 
