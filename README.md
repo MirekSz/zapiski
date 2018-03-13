@@ -10,7 +10,7 @@
       <subsystem name="jaxrs" />
       <subsystem name="webservices" />
     </exclude-subsystems>
-    ```
+```
 3. Dialog brak wpisów w DNS
 4. NVision agent usuwający nagłówki GZIP
 5. Pola nullable z JSON i reakcja na zmiane wartości pól w dataset
