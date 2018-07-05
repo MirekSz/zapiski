@@ -36,6 +36,7 @@ WARN [net.sf.ehcache.distribution.RMIAsynchronousCacheReplicator] (Replication T
 14. Hazelcast i niedziałający query cache https://github.com/hazelcast/hazelcast-hibernate5/issues/33
 15. Groovy math i własny typ dziedziczący po number
 16. SQLQuery w hibernate czysci wszystkie cache L2
+17. Podwójny rozmiar w L2 https://github.com/hibernate/hibernate-orm/commit/954f1c4dfa5106b7914fc6c56a8202f119e5ff23#diff-d4e36c0df8cb46879a94c8a12b839384
 
 
 
