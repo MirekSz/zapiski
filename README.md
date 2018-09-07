@@ -37,6 +37,9 @@ WARN [net.sf.ehcache.distribution.RMIAsynchronousCacheReplicator] (Replication T
 15. Groovy math i własny typ dziedziczący po number
 16. SQLQuery w hibernate czysci wszystkie cache L2
 17. Podwójny rozmiar w L2 https://github.com/hibernate/hibernate-orm/commit/954f1c4dfa5106b7914fc6c56a8202f119e5ff23#diff-d4e36c0df8cb46879a94c8a12b839384
+18. Problem z Boolean'ami na nowym sterowniku ten zrzut to popsuł 
+https://github.com/pgjdbc/pgjdbc/commit/4942f7d1cc812feeeca331878334a3d4058615e4#diff-13f8af2e09f7a6b9b3e286e653aa63f7
+poprawka springa https://github.com/spring-projects/spring-framework/commit/79ea77908ac3f68103d06935a0e2100621df988a#diff-0185284ff6b59ebc5d411260856366b4 ze względu na https://jira.spring.io/browse/SPR-15333
 
 
 
