@@ -43,6 +43,7 @@ org.postgresql.util.PSQLException: ERROR: function prepare_account_report() does
 problem z Boolean'ami na nowym sterowniku ten zrzut to popsuł 
 https://github.com/pgjdbc/pgjdbc/commit/4942f7d1cc812feeeca331878334a3d4058615e4#diff-13f8af2e09f7a6b9b3e286e653aa63f7
 poprawka springa https://github.com/spring-projects/spring-framework/commit/79ea77908ac3f68103d06935a0e2100621df988a#diff-0185284ff6b59ebc5d411260856366b4 ze względu na https://jira.spring.io/browse/SPR-15333
+19. Hibernate błędy PK zabytanie hql w flush, zdarzenia
 
 
 
