@@ -46,6 +46,11 @@ poprawka springa https://github.com/spring-projects/spring-framework/commit/79ea
 19. Hibernate błędy PK zabytanie hql w flush, zdarzenia
 20. Hibernate orgomny IN https://github.com/hibernate/hibernate-orm/blob/39d9f84920081d3f110fca07ee30ca817f95d737/hibernate-core/src/main/java/org/hibernate/cfg/AvailableSettings.java IN_CLAUSE_PARAMETER_PADDING
 21. Wiecej rdzeni wirtualnych niz fizycznych = stolen
+22. WARNING [org.apache.cxf.jaxrs.provider.AbstractJAXBProvider] (default task-1) javax.xml.bind.UnmarshalException
+ - with linked exception:
+[javax.xml.stream.XMLStreamException: Maximum Number of Child Elements limit (10) Exceeded]
+
+WARNING [org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper] (default task-1) javax.ws.rs.WebApplicationException: HTTP 413 Request Entity Too Large
 
 
 
