@@ -52,7 +52,7 @@ poprawka springa https://github.com/spring-projects/spring-framework/commit/79ea
 
 WARNING [org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper] (default task-1) javax.ws.rs.WebApplicationException: HTTP 413 Request Entity Too Large
 
-max-post-size attribute in the undertow subsystem:
+max-post-size attribute in the undertow subsystem: 10MB
 
 
 
