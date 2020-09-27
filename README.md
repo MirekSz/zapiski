@@ -54,5 +54,7 @@ WARNING [org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper] (default task-
 
 max-post-size attribute in the undertow subsystem: 10MB
 
+23. Różna kolejność listenerów = deadlock, poprawa = select for update w kolejnosci = timeout na froncie (10 s i retry operacji). Szybki deadlock vs wolny lock. Wiele updateow tabela 100KB, a indeks 100GB, Vacummm freeze, reindex
+
 
 
