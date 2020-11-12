@@ -56,5 +56,9 @@ max-post-size attribute in the undertow subsystem: 10MB
 
 23. Różna kolejność listenerów = deadlock, poprawa = select for update w kolejnosci = timeout na froncie (10 s i retry operacji). Szybki deadlock vs wolny lock. Wiele updateow tabela 100KB, a indeks 100GB, Vacummm freeze, reindex
 
+24. ESB dead ActiveMQ zapisy do KahabDB plik strony 32MB, żyje tyle ile jego ostani wpis, w kolejnych plikach niestety są potwierdzenia przetworzenia poprzednich, więc jeden komunikat stary może powodować 100GB na dysk
+
+25. ESB dead jms.prefetchPolicy.all=50 domyślnie 1000, komunikaty po 1MB = 1GB, wdrożenia wprowdzają optymalizacja na consumentCount=2, czyli 2x1000=2GB
+
 
 
