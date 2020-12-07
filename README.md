@@ -59,6 +59,6 @@ max-post-size attribute in the undertow subsystem: 10MB
 24. ESB dead ActiveMQ zapisy do KahabDB plik strony 32MB, żyje tyle ile jego ostani wpis, w kolejnych plikach niestety są potwierdzenia przetworzenia poprzednich, więc jeden komunikat stary może powodować 100GB na dysk
 
 25. ESB dead jms.prefetchPolicy.all=50 domyślnie 1000, komunikaty po 1MB = 1GB, wdrożenia wprowdzają optymalizacja na consumentCount=2, czyli 2x1000=2GB
-
+26. https://bugzilla.redhat.com/show_bug.cgi?id=1813436 -> https://github.com/jboss-logging/jboss-logmanager/releases/tag/2.1.15.Final
 
 
