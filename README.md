@@ -61,5 +61,13 @@ max-post-size attribute in the undertow subsystem: 10MB
 25. ESB dead jms.prefetchPolicy.all=50 domyślnie 1000, komunikaty po 1MB = 1GB, wdrożenia wprowdzają optymalizacja na consumentCount=2, czyli 2x1000=2GB
 26. https://bugzilla.redhat.com/show_bug.cgi?id=1813436 -> https://github.com/jboss-logging/jboss-logmanager/releases/tag/2.1.15.Final
 27. Artemis auto-delete-queue i ginące komunikaty https://issues.apache.org/jira/browse/ARTEMIS-3502
-
+28. Artemis scheduled-thread-pool-max-size oraz
+```
+<address-setting match="hospital">
+			<max-size-bytes>2048576000</max-size-bytes>
+			<page-size-bytes>10485760</page-size-bytes>
+			<address-full-policy>PAGE</address-full-policy>
+			<page-max-cache-size>100</page-max-cache-size>
+		</address-setting>
+```
 
