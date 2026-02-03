@@ -70,4 +70,5 @@ max-post-size attribute in the undertow subsystem: 10MB
 			<page-max-cache-size>100</page-max-cache-size>
 		</address-setting>
 ```
+29. Ogromne ilość RmiEventMessage podczas odczytów typu entity.getItemsSet() gdzie pozycje itmeów sa w L2 głopie zachowanie Hibernate w DefaultInitializeCollectionEventListener, gdzie kazda encje wpada w L2 a co za tym idzie na klaster idzie mnóstwo REMOVE - rozwiązanie przestawienie CacheMode.GET dla sesji podczas inicjalizacji kolekcji
 
