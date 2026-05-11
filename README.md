@@ -71,4 +71,5 @@ max-post-size attribute in the undertow subsystem: 10MB
 		</address-setting>
 ```
 29. Ogromne ilość Ehcache RmiEventMessage podczas odczytów typu entity.getItemsSet() gdzie pozycje itmeów sa w L2 głopie zachowanie Hibernate w DefaultInitializeCollectionEventListener, gdzie kazda encje wpada w L2 a co za tym idzie na klaster idzie mnóstwo REMOVE - rozwiązanie przestawienie CacheMode.GET dla sesji podczas inicjalizacji kolekcji
+30. Roznica miedzy apache BeanUtils.copyProperties(to, from) a org.springframework.beans.BeanUtils.copyProperties(from, to). Pierwsza ztobiła kopie seta bez zwracania uwagi na typ generyczny co doprowadziło do złamiania kontracy RestApi
 
